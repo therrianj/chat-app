@@ -80,6 +80,6 @@ io.on('connection', (socket) => {
 
 const host = "0.0.0.0" || "localhost";
  
-app.listen(port, host, () => {
+server.listen(port, host, () => {
     console.log(`Server is up on port ${port}!`) 
 })
